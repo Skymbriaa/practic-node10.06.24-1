@@ -1,14 +1,13 @@
-import './App.css';
-import Button from './components/Button';
-import Heading from './components/Heading';
+import "./App.css";
+import Ciao from "./components/Ciao";
+
 
 function App() {
   return (
     <>
-    <Heading />
-    <Button content='new button content' number='12'/>
-    <Button content='new 1 button content'/>
-    <Button content='new 2 button content'/>
+    <Ciao name='Fred' age={54} isMale={true}/>
+    <Ciao name='Bob' age={45} isMale={true}/>
+    <Ciao name='Ola' age={44} isMale={false}/>
     </>
   );
 }
