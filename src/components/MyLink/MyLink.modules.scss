@@ -1,4 +1,4 @@
-@use '/src/common/styles/colors' as c;
+@use '/src/common/styles/colors' as *;
 
 $size: 100px;
 .link{
@@ -6,7 +6,7 @@ $size: 100px;
     width: $size;
     padding: $padding-size;
     border: {
-        color: c.$colorMain;
+        color: $colorMain;
         width: 2px;
         styles: dotted;
     }
