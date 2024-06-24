@@ -1,0 +1,17 @@
+@use '/src/common/styles/colors' as c;
+
+$size: 100px;
+.link{
+    display: block;
+    width: $size;
+    padding: $padding-size;
+    border: {
+        color: c.$colorMain;
+        width: 2px;
+        styles: dotted;
+    }
+    text-align: center;
+    &:hover{
+        border-color: blue;
+    }
+}

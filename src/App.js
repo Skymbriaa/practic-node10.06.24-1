@@ -1,13 +1,13 @@
 import "./App.css";
-import Ciao from "./components/Ciao";
+import StopWatch from "./components/StopWatch";
+import Ciao from './components/Ciao'
+import MyLink from './components/MyLink'
 
 
 function App() {
   return (
     <>
-    <Ciao name='Fred' age={54} isMale={true}/>
-    <Ciao name='Bob' age={45} isMale={true}/>
-    <Ciao name='Ola' age={44} isMale={false}/>
+    <MyLink href='#' content='my link content' />
     </>
   );
 }
