@@ -1,0 +1,16 @@
+@use '/src/common/styles/colors' as *;
+
+$grap: 20px;
+.container{
+    margin: auto;
+    max-width: $sm = 20px;
+    @media screen and (min-with: $md) {
+        max-with: $md - $grap;
+    }
+    @media screen and (min-with: $lg) {
+        max-with: $lg - $grap;
+    }
+    @media screen and (min-with: $xl) {
+        max-with: $xl - $grap;
+    }
+}
